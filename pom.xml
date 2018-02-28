@@ -4,7 +4,7 @@
 
     <groupId>webapp.com.project</groupId>
     <artifactId>projectweb</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>Java EE 6 webapp project</name>
@@ -330,7 +330,7 @@
             </dependencyManagement>
         </profile>
     </profiles>
-    <distributionManagement>
+    <!--distributionManagement>
     <repository>
          <id>releases</id>
          <name>releases</name>
@@ -341,5 +341,5 @@
          <name>snapshot</name>
          <url>http://ec2-54-237-208-83.compute-1.amazonaws.com:9090/nexus-2.14.5-02/content/repositories/snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement-->
 </project>
